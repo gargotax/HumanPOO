@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\bin\Debug\net6.0\Humain.exe
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\bin\Debug\net6.0\Humain.deps.json
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\bin\Debug\net6.0\Humain.runtimeconfig.json
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\bin\Debug\net6.0\Humain.dll
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\bin\Debug\net6.0\Humain.pdb
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.AssemblyInfo.cs
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.dll
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\refint\Humain.dll
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.pdb
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.genruntimeconfig.cache
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\ref\Humain.dll
