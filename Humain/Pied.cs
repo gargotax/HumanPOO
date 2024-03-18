@@ -1,16 +1,12 @@
 ﻿namespace Humain
 {
-    public class Pied:IPartieCorps
+    public class Pied
     {
-        public Orteil Pouce { get; }
-        public Orteil Index { get; }
-        public Orteil Majeur { get; }
-        public Orteil Annulaire { get; }
-        public Orteil Auriculaire { get; }
-
-        public string Action()
-        {
-           return "le pied bouge";
-        }
+        public Orteil un { get; }
+        public Orteil deux { get; }
+        public Orteil trois { get; }
+        public Orteil quatre { get; }
+        public Orteil cinque { get; }
+   
     }
 }

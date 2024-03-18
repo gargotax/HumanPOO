@@ -1,26 +1,34 @@
 ﻿namespace Humain
 {
-    public class Human: IPartieCorps
+    public class Human
     {
-        public Main MainGauche { get; set; }
-        public Main MainDroite { get; set; }
-        public Jambes Jambes { get; set; }
+        public Bras BrasGauche { get; }
+        public Bras BrasDroit { get; }
+        public Jambes JambeGauche { get; }
+        public Jambes JambeDroite { get; }
         public int Age { get; }
-        public string Nom {  get; }
+        public string Nom { get; }
 
-
-        public Human()
+        public Human(Bras brasGauche, Bras brasDroit, Jambes jambeGauche, Jambes jambeDroite, int age, string nom)
         {
-
+            BrasGauche = brasGauche;
+            BrasDroit = brasDroit;
+            JambeGauche = jambeGauche;
+            JambeDroite = jambeDroite;
+            Age = age;
+            Nom = nom;
         }
 
-        public string Action()
+        public void Marcher()
         {
-           return $"{Jambes.Action()} {MainDroite.Action()}" ;
-            
+            Console.WriteLine("l'humain marche");
         }
 
-        
+        public void Lancer()
+        {
+            Console.WriteLine("l'humain lance qqc");
+        }
+
 
     }
 }

@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\refint\Humai
 C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.pdb
 C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.genruntimeconfig.cache
 C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\ref\Humain.dll
+C:\Users\HP\Desktop\hachemi\mestests\Humain\Humain\obj\Debug\net6.0\Humain.sourcelink.json

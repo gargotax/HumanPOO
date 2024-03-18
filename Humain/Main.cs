@@ -1,22 +1,18 @@
-﻿namespace Humain
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Humain
 {
-    public class Main:IPartieCorps
+    internal class Main
     {
-        public IPartieCorps MainGauche {  get; set; } 
-        public IPartieCorps MainDroite { get; set; } 
+        public Doigt un { get; }
+        public Doigt deux { get; }
+        public Doigt trois { get; }
+        public Doigt quattre { get; }
+        public Doigt cinque { get; }
 
-
-        public Main()
-        {
-          
-            
-        }
-
-        public string Action()
-        {
-           return $"{MainGauche.Action()} {MainDroite.Action()}" ;
-            
-           
-        }
     }
 }

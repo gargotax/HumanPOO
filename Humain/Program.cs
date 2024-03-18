@@ -6,21 +6,12 @@
         {
             Console.WriteLine("Hello, World!");
 
-            Human personne = new Human();
-            personne.Jambes = new Jambes
-            {
-                PiedDroit = new Pied(),
-                PiedGauche = new Pied()
-            };
+            Human human = new Human(new Bras(), new Bras(), new Jambes(), new Jambes(), 10, "test");
+            
+            human.Marcher();
+            human.Lancer();
 
-            personne.MainGauche = new Main
-            {
-                MainGauche = new Main()
-            };
 
-            personne.Action();
-
-            personne.MainDroite.Action();
         }
     }
     

@@ -1,14 +1,11 @@
 ﻿namespace Humain
 {
-    public class Jambes:IPartieCorps
+    public class Jambes
     {
-        public IPartieCorps PiedDroit { get; set; }
-        public IPartieCorps PiedGauche { get; set; }
+        public Pied PiedGauche { get; }
+        public Pied PiedDroit { get; }
 
-        public string Action()
-        {
-          return $" {PiedDroit.Action()} {PiedGauche.Action()}";
-
-        }
+       
     }
+    
 }
