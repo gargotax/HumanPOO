@@ -6,10 +6,10 @@
         {
             Console.WriteLine("Hello, World!");
 
-            Human human = new Human(new Bras(), new Bras(), new Jambes(), new Jambes(), 10, "test");
-            
+            Human human = new Human( 10, "test");
             human.Marcher();
             human.Lancer();
+
 
 
         }

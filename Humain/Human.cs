@@ -2,19 +2,15 @@
 {
     public class Human
     {
-        public Bras BrasGauche { get; }
-        public Bras BrasDroit { get; }
-        public Jambes JambeGauche { get; }
-        public Jambes JambeDroite { get; }
+        public Bras Bras{ get; }
+        public Jambes Jambes { get; }
         public int Age { get; }
         public string Nom { get; }
 
-        public Human(Bras brasGauche, Bras brasDroit, Jambes jambeGauche, Jambes jambeDroite, int age, string nom)
+        public Human(int age, string nom)
         {
-            BrasGauche = brasGauche;
-            BrasDroit = brasDroit;
-            JambeGauche = jambeGauche;
-            JambeDroite = jambeDroite;
+            Bras bras = this.Bras;
+            Jambes jambes = this.Jambes;
             Age = age;
             Nom = nom;
         }
